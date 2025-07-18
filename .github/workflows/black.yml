@@ -1,4 +1,6 @@
 name: Lint with Black
+permissions:
+  contents: read
 
 on: [push, pull_request]
 

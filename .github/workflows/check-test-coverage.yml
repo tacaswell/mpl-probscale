@@ -1,4 +1,6 @@
 name: Coverage (with doctests)
+permissions:
+  contents: read
 on:
   push:
     branches: [ master ]
